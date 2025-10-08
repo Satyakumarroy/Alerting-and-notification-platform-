@@ -1,0 +1,7 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+app:
+  # in production, set to 120 (minutes). For demo set to e.g. 1 or 5.
+  reminderIntervalMinutes: 120
